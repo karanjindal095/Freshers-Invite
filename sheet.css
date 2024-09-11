@@ -92,3 +92,43 @@
 		color: white;
 	}
 }
+/* Logo for desktop view */
+.college-logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 80px; /* Adjust the size for desktop */
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 768px) {
+	.college-logo {
+		width: 50px; /* Smaller size for mobile */
+		top: 5px; /* Adjust the top position for mobile */
+		left: 5px; /* Adjust the left position for mobile */
+	}
+
+	.first {
+		padding: 1vh 1vw; /* Reduce padding for smaller screens */
+	}
+
+	h1 {
+		font-size: 5vw; /* Adjust heading size for mobile */
+	}
+
+	h2 {
+		font-size: 4vw; /* Adjust heading size for mobile */
+	}
+
+	h3 {
+		font-size: 3.5vw; /* Adjust sub-heading size for mobile */
+	}
+
+	.second h2 {
+		font-size: 5vw; /* Adjust invitation size for mobile */
+	}
+
+	img {
+		width: 70%; /* Scale down images for mobile */
+	}
+}
